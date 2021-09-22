@@ -1,0 +1,1 @@
+const data=require('./COLLECTION_NAME.json'),{nanoid:nanoid}=require("nanoid"),path=require("path"),fs=require("fs"),database=data.db;
