@@ -70,7 +70,7 @@ export default {
           wish.classList.add("required");
         } else {
           axios
-            .post(process.env.API_URL,
+            .post("https://amogus-db.nehanyaser.repl.co/add?api_key=2426&document=Wishes",
               {
                 wisher: wisher,
                 wish: wish,
