@@ -32,7 +32,7 @@ export default {
   created: () => {
     axios
       .get(
-        "https://amogus-db.nehanyaser.repl.co/api?api_key=2426&document=Wishes"
+        "https://proxy.nehanyaser.repl.co/wisher?document=Tahlil"
       )
       .then((response) => {
         if (response.status === 200) {
