@@ -1,0 +1,6 @@
+.gitignore
+
+*.js
+
+/Rehman/*.js
+/Tahlil/*.js
