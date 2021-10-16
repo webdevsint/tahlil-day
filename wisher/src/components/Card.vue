@@ -205,7 +205,7 @@ button:hover {
     width: 250px;
   }
   .form {
-    height: 420px;
+    height: 410px;
   }
   input, textarea {
     width: 200px;
