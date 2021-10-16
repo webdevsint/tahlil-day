@@ -133,7 +133,7 @@ export default {
   border-radius: 6px 0 0 6px;
 }
 p {
-  margin: 25px 0px 25px 25px;
+  margin: 25px;
   font-weight: bold;
   color: rgb(24, 24, 24);
 }
@@ -203,6 +203,9 @@ button:hover {
 @media screen and (max-width: 350px) {
   .card, .form {
     width: 250px;
+  }
+  .form {
+    height: 420px;
   }
   input, textarea {
     width: 200px;
