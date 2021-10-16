@@ -61,8 +61,7 @@
     flex-direction: column;
     padding: 0 15px;
   }
-  h3,
-  a {
+  h3, a {
     color: white;
   }
   a:hover {
