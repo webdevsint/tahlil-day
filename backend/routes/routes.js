@@ -1,5 +1,6 @@
 const express = require("express");
 const aes256 = require("aes256");
+const shell = require('shelljs');
 const router = express.Router();
 const path = require("path");
 require("dotenv").config();
@@ -148,6 +149,8 @@ router.post("/add", (req, res) => {
       data.addEntry(wisher, wish);
       data.save();
 
+      shell.exec('bash backup.sh');
+      
       res.send("entry added!");
     }
   }
@@ -172,6 +175,8 @@ router.delete("/remove", (req, res) => {
 
     data.removeEntry(req.query.index);
     data.save();
+
+    shell.exec('bash backup.sh');
 
     res.send("Entry deleted!");
   }
